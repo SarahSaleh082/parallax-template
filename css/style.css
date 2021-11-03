@@ -1,0 +1,63 @@
+/*============ Start Global Styling ============*/
+:root{
+    --main-color: rgb(177, 173, 173);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/*============= End Global Styling ===========*/
+
+/*=========== Start Styling Header =============*/
+header{
+    background-image: url(../img/parallax1.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 75vh;
+    position: relative;
+}
+header .overlay{
+    background-color: rgba(0, 0, 0, .5);
+    height: 75vh;
+}
+header .nav-item{
+    display: flex;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    
+
+}
+header .nav-item .nav-link{
+    color: var(--main-color) !important;
+}
+header .nav-item .nav-link i{
+    padding: 0 5px;
+}
+header .nav-item .nav-link:hover{
+    background-color: var(--main-color);
+    color: #000 !important;
+    
+}
+header .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    
+}
+header .content p{
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    /* margin: 0; */
+    text-align: center;
+    letter-spacing: 5px;
+}
+/*=========== End Styling Header =============*/
